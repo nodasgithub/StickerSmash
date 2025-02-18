@@ -1,10 +1,9 @@
-import { Link } from "expo-router";
 import { Text, View, StyleSheet } from "react-native";
 
-export default function Index() {
+export default function AboutScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Hello StickerSmash!</Text>
+      <Text style={styles.text}>About screen</Text>
     </View>
   );
 }
@@ -18,10 +17,5 @@ const styles = StyleSheet.create({
   },
   text: {
     color: "#FFF"
-  },
-  button: {
-    fontSize: 20,
-    textDecorationLine: "underline",
-    color: "#FFF",
-  },
+  }
 });
